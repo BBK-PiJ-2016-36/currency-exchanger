@@ -11,7 +11,7 @@ while (!finished) {
     println "   2 - Exchange euro into pounds";
     println "   0 - Exit the program";
     println "";
-    print   "> ";
+    print   ">";
     int choice = Integer.parseInt(System.console().readLine());
     switch (choice) {
     case 1:
@@ -30,7 +30,7 @@ while (!finished) {
 	  finished = true;
 	  break;
     default: 
-	  println "Sorry, that is not a valid option";
+	  println "Sorry, that option is not valid.";
     }	  
 }
 println "Exiting the program";
